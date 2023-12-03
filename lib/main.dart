@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:notes/note_screen.dart';
 import 'firebase_options.dart';
 import 'signup_screen.dart';
 import 'login_screen.dart';
 import 'welcome.dart';
+import 'note_user_screen.dart';
 // 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

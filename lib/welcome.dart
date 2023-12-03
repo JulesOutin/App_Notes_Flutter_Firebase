@@ -13,7 +13,7 @@ class _WelcomeState extends State<Welcome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar : AppBar (
-        title: Text("Dashboard"),
+        title: const Text("Dashboard"),
       ),
       body: Center(
         child: Padding(
@@ -22,12 +22,6 @@ class _WelcomeState extends State<Welcome> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text("Welcome"),
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, '/notes');
-                },
-                child: const Text("Notes"),
-              ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/login');

@@ -41,6 +41,7 @@ class _NoteScreenState extends State<NoteScreen> {
       ),
       body: Column(
         children: <Widget>[
+          Text('Logged in as: ${_auth.currentUser!.email}'),
           TextField(
             controller: _noteController,
             decoration: const InputDecoration(labelText: 'Note'),
@@ -59,7 +60,7 @@ class _NoteScreenState extends State<NoteScreen> {
           ElevatedButton(
             onPressed: () {
               _auth.signOut();
-              Navigator.pushNamed(context, '/welcome');
+              Navigator.pushNamed(context, '/');
             },
             child: const Text('Sign Out'),
           ),

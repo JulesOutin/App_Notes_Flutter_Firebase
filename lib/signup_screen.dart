@@ -97,6 +97,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             content: Text('Successfully signed up'),
                           ),
                         );
+                        Navigator.pushNamed(context, '/login');
                       } on FirebaseAuthException catch (e) {
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
