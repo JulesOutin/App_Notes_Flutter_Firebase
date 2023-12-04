@@ -1,55 +1,47 @@
-# Travaux Pratiques: Découverte de Firebase avec Flutter
+# App Notes
+## Description
+Mon Application est une application mobile développée en Dart avec le framework Flutter. Elle permet aux utilisateurs de s'inscrire et de se connecter à leur compte.
 
-## Partie 4: Projet Final - Création d'une Application de Notes
-**Durée estimée:** 5 heures
+## Technologies
+* Flutter
+* Dart
+* Firebase
 
-### Objectifs
-- Consolider et appliquer toutes les notions acquises sur Firebase et Flutter.
-- Créer une application complète permettant aux utilisateurs de créer, lire, mettre à jour et supprimer des notes.
-- Appliquer les règles de sécurité de Firebase pour sécuriser l'application.
+## Installation
+Pour configurer l'application, suivez les étapes suivantes :
 
-### Étapes
+Clonez le dépôt sur votre machine locale. Pour configurer l'application, suivez les étapes ci-dessous :
 
-#### 1. Préparation du Projet
-- Créez un nouveau projet Flutter et configurez Firebase comme vous l'avez appris dans les parties précédentes. 🚀
+Clonez le dépôt sur votre machine locale.
 
-#### 2. Authentification des Utilisateurs
-- Implémentez une page d'authentification permettant aux utilisateurs de se connecter ou de créer un compte avec un email et un mot de passe.
+Assurez-vous d'avoir installé Flutter et Dart sur votre machine.
 
-#### 3. Création de l'Interface Principale
-- Créez une interface utilisateur permettant aux utilisateurs de voir la liste de leurs notes.
-- Ajoutez une fonctionnalité pour ajouter de nouvelles notes.
+Ouvrez le projet dans votre IDE préféré (par exemple, Visual Studio Code).
 
-#### 4. Intégration de Cloud Firestore
-- Stockez et récupérez les notes des utilisateurs à partir de Cloud Firestore.
-- Assurez-vous que chaque utilisateur ne peut accéder qu'à ses propres notes.
+Assurez-vous d'avoir installé Flutter et Dart sur votre machine.
 
-#### 5. Fonctionnalités CRUD (Create, Read, Update, Delete)
-- Ajoutez des fonctionnalités permettant aux utilisateurs de modifier ou supprimer leurs notes.
-  
-#### 6. Stockage d'Images
-- Permettez aux utilisateurs de télécharger des images avec leurs notes et stockez ces images dans Firebase Storage.
-- Affichez ces images avec les notes dans l'interface utilisateur.
+Ouvrez le projet dans votre IDE préféré (par exemple, Visual Studio Code).
 
-#### 7. Application des Règles de Sécurité
-- Configurez les règles de sécurité dans Firebase pour assurer que les données des utilisateurs sont sécurisées.
+Exécutez flutter pub get dans le terminal pour installer les dépendances nécessaires.
 
-#### 8. Gestion des Erreurs et des États de Chargement
-- Ajoutez une gestion appropriée des erreurs et des états de chargement dans votre application.
+## Utilisation
+Installez les dépendances du projet en exécutant flutter pub get dans le terminal.
+Configurez Firebase pour l'authentification des utilisateurs. Vous pouvez suivre ce guide pour le faire.
+Pour utiliser l'application, suivez les étapes suivantes :
 
-#### 9. Test de l'Application
-- Testez toutes les fonctionnalités de votre application pour vous assurer qu'elles fonctionnent comme prévu.
+Lancez l'application en exécutant flutter run dans le terminal.
+Sur l'écran d'accueil, vous pouvez choisir de vous inscrire ou de vous connecter.
+Utilisation
+Pour utiliser l'application, suivez les étapes ci-dessous :
 
-#### 10. Documentation
-- Documentez votre code source et rédigez un README sur GitHub expliquant comment utiliser votre application, les fonctionnalités qu'elle offre, et comment elle est structurée.
+Lancez l'application en exécutant flutter run dans le terminal.
 
-### Rendu Attendu
-- Code source de l'application.
-- Un README clair et informatif décrivant votre application, comment la configurer et l'utiliser.
-- Captures d'écran ou vidéo démontrant toutes les fonctionnalités de l'application.
-- Un document séparé expliquant toutes les règles de sécurité Firebase que vous avez appliquées et pourquoi.
-- Un rapport bref expliquant les défis rencontrés et comment vous les avez surmontés.
+Si vous choisissez de vous inscrire, vous serez redirigé vers l'écran d'inscription. Remplissez les champs requis et cliquez sur "Sign Up".
 
----
+Sur l'écran d'accueil, vous pouvez choisir de vous inscrire ou de vous connecter.
 
-Ce projet final vous permet de montrer votre compréhension des concepts de Firebase et Flutter que nous avons explorés tout au long de ce TP. Vous devrez soumettre tous les livrables listés dans la section "Rendu Attendu" pour évaluation. Bon travail ! 🎉
+Si l'inscription est réussie, vous serez redirigé vers l'écran de connexion. Entrez vos identifiants et cliquez sur "Login".
+
+Si vous choisissez de vous inscrire, remplissez le formulaire avec votre email et votre mot de passe, puis cliquez sur le bouton 'Sign Up'.
+
+Si l'inscription est réussie, vous serez redirigé vers l'écran de connexion où vous pouvez vous connecter avec vos nouvelles informations d'identification.
